@@ -1,0 +1,75 @@
+@import "https://fonts.google.com/specimen/Barlow+Semi+Condensed";
+*body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(0, 0%, 81%);
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 14px;
+  font-size: 30px;
+  margin:6px
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  // height: 100px;
+}
+.item2 {
+  grid-column: 3 / span 1;
+  grid-row: 1;
+  // height: 100px;
+}
+.item3 {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 3;
+}
+.item4 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  // height: 100px;
+}
+
+.item5 {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  // height: 100px;
+}
+.name {
+  // padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  vertical-align: top;
+  color: hsl(0, 0%, 100%);
+  // margin: 10px;
+  padding: 0 12px;
+}
+
+.designation {
+  font-size: 13px;
+  font-weight: 100;
+  color: hsl(0, 0%, 100%, 50%);
+  text-align: left;
+  padding: 2px 12px;
+  vertical-align: top;
+}
+.first-para {
+  font-size: 13px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%, 70%);
+  padding:8px;
+}
+
+.second-para {
+  font-size: 10px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%, 70%);
+}
