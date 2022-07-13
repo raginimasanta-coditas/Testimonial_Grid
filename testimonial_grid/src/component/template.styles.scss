@@ -3,7 +3,11 @@
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: hsl(0, 0%, 81%);
 }
-
+img {
+  border-radius: 30px;
+  width: 33px;
+  vertical-align: top;
+}
 .grid-container {
   display: grid;
   gap: 10px;
@@ -14,19 +18,16 @@
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 14px;
-  font-size: 30px;
-  margin:6px
+  margin: 6px;
 }
 
 .item1 {
   grid-column: 1 / span 2;
   grid-row: 1;
-  // height: 100px;
 }
 .item2 {
   grid-column: 3 / span 1;
   grid-row: 1;
-  // height: 100px;
 }
 .item3 {
   grid-column: 4 / span 1;
@@ -35,27 +36,23 @@
 .item4 {
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
-  // height: 100px;
 }
 
 .item5 {
   grid-column: 2 / span 2;
   grid-row: 2;
-  // height: 100px;
 }
 .name {
-  // padding: 10px;
   font-size: 15px;
   font-weight: 500;
   vertical-align: top;
   color: hsl(0, 0%, 100%);
-  // margin: 10px;
   padding: 0 12px;
 }
 
 .designation {
   font-size: 13px;
-  font-weight: 100;
+  font-weight: 300;
   color: hsl(0, 0%, 100%, 50%);
   text-align: left;
   padding: 2px 12px;
@@ -65,11 +62,54 @@
   font-size: 13px;
   font-weight: 600;
   color: hsl(0, 0%, 100%, 70%);
-  padding:8px;
+  padding: 8px;
 }
 
 .second-para {
   font-size: 10px;
   font-weight: 500;
   color: hsl(0, 0%, 100%, 70%);
+  padding: 8px;
+}
+
+@media only screen and (max-width: 375px) {
+  .name {
+    font-size: 40px;
+  }
+
+  .designation {
+    font-size: 30px;
+  }
+  img {
+    width: 70px;
+  }
+  .first-para {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .second-para {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .item1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .item2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .item3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .item4 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .item5 {
+    grid-column: 1;
+    grid-row: 5;
+  }
 }
