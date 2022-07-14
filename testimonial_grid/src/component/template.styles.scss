@@ -63,6 +63,7 @@ img {
   font-weight: 600;
   color: hsl(0, 0%, 100%, 70%);
   padding: 8px;
+  z-index: 1;
 }
 
 .second-para {
@@ -112,4 +113,12 @@ img {
     grid-column: 1;
     grid-row: 5;
   }
+}
+
+.quotes{
+  position: absolute;
+    top: 16px;
+    right: 40px;
+    border-radius: 0;
+    width: 60px;
 }

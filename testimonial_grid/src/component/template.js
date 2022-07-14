@@ -5,6 +5,7 @@ import Jeanette from "../assets/image-jeanette.jpg";
 import Kira from "../assets/image-kira.jpg";
 import Patrick from "../assets/image-patrick.jpg";
 import Jonathan from "../assets/image-jonathan.jpg";
+import Pattern from "../assets/pattern.svg";
 
 class Template extends React.Component {
   constructor(props) {
@@ -24,9 +25,11 @@ class Template extends React.Component {
               textAlign: "left",
               display: "flex",
               flexWrap: "wrap",
+              position: "relative",
             }}
             class="grid-item item1"
           >
+            <img src={Pattern} style={{ position: "absolute" }} className="quotes"></img>
             <div>
               <img
                 src={Daniel}
