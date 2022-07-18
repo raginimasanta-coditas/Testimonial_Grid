@@ -8,17 +8,37 @@ img {
   width: 33px;
   vertical-align: top;
 }
+.main-container {
+  width: 800px;
+  height: 400px;
+  margin: auto auto;
+}
 .grid-container {
   display: grid;
   gap: 10px;
   padding: 10px;
 }
-
+.first-testimonial {
+  background-color: hsl(263, 55%, 52%);
+  position: relative;
+}
+.second-testimonial {
+  background-color: hsl(217, 19%, 35%);
+}
+.third-testimonial {
+  background-color: hsl(0, 0%, 100%);
+}
+.fifth-testimonial {
+  background-color: hsl(219, 29%, 14%);
+}
 .grid-item {
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
+
   padding: 14px;
   margin: 6px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .item1 {
@@ -72,7 +92,16 @@ img {
   color: hsl(0, 0%, 100%, 70%);
   padding: 8px;
 }
+.patrik-profile-picture {
+  border: 1.5px solid hsl(263, 55%, 52%);
+}
 
+.daniel-profile-picture {
+  border: 1.5px solid hsl(0, 0%, 100%);
+}
+.item3-heading {
+  color: hsl(219, 29%, 14%);
+}
 @media only screen and (max-width: 375px) {
   .name {
     font-size: 40px;
@@ -115,10 +144,10 @@ img {
   }
 }
 
-.quotes{
+.quotes {
   position: absolute;
-    top: 16px;
-    right: 40px;
-    border-radius: 0;
-    width: 60px;
+  top: 16px;
+  right: 40px;
+  border-radius: 0;
+  width: 60px;
 }

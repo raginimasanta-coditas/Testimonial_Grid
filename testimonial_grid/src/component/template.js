@@ -17,26 +17,12 @@ class Template extends React.Component {
 
   render() {
     return (
-      <div style={{ width: "800px", height: "400px", margin: "auto auto" }}>
+      <div className="main-container">
         <div class="grid-container">
-          <div
-            style={{
-              backgroundColor: "hsl(263, 55%, 52%)",
-              textAlign: "left",
-              display: "flex",
-              flexWrap: "wrap",
-              position: "relative",
-            }}
-            class="grid-item item1"
-          >
-            <img src={Pattern} style={{ position: "absolute" }} className="quotes"></img>
+          <div class="first-testimonial grid-item item1">
+            <img src={Pattern} className="quotes"></img>
             <div>
-              <img
-                src={Daniel}
-                style={{
-                  border: "1.5px solid hsl(0, 0%, 100%)",
-                }}
-              ></img>
+              <img src={Daniel} className="daniel-profile-picture"></img>
             </div>
             <div>
               <div className="name">Daniel Clifford </div>
@@ -57,54 +43,28 @@ class Template extends React.Component {
               careers, working as a Software Engineer at a VR startup. ”
             </div>
           </div>
-          <div
-            style={{
-              backgroundColor: " hsl(217, 19%, 35%)",
-              textAlign: "left",
-              display: "flex",
-              flexWrap: "wrap",
-            }}
-            class="grid-item item2"
-          >
+          <div class="second-testimonial grid-item item2">
             <div>
-              <img
-                src={Jonathan}
-                style={{
-                  border: "1.5px solid hsl(0, 0%, 100%)",
-                }}
-              ></img>
+              <img src={Jonathan} className="daniel-profile-picture"></img>
             </div>
             <div>
               <div className="name">Jonathan Walters</div>
               <div className="designation"> Verified Graduate</div>
             </div>
-            <div style={{}} className="first-para">
+            <div className="first-para">
               The team was very supportive and kept me motivated
             </div>
-            <div style={{}} className="second-para">
+            <div className="second-para">
               “ I started as a total newbie with virtually no coding skills. I
               now work as a mobile engineer for a big company. This was one of
               the best investments I’ve made in myself. ”
             </div>
           </div>
-          <div
-            style={{
-              backgroundColor: "hsl(0, 0%, 100%)",
-              textAlign: "left",
-              display: "flex",
-              flexWrap: "wrap",
-            }}
-            class="grid-item item3"
-          >
+          <div class="third-testimonial grid-item item3">
             <div>
-              <img
-                src={Kira}
-                style={{
-                  border: "1.5px solid hsl(0, 0%, 100%)",
-                }}
-              ></img>
+              <img src={Kira} className="daniel-profile-picture"></img>
             </div>
-            <div style={{ color: "hsl(219, 29%, 14%)" }}>
+            <div>
               <div className="name" style={{ color: "black" }}>
                 Kira Whittle
               </div>
@@ -112,13 +72,10 @@ class Template extends React.Component {
                 Verified Graduate
               </div>
             </div>
-            <div style={{ color: "hsl(219, 29%, 14%)" }} className="first-para">
+            <div className="item3-heading first-para">
               Such a life-changing experience. Highly recommended!
             </div>
-            <div
-              style={{ color: "hsl(219, 29%, 14%)" }}
-              className="second-para"
-            >
+            <div className="item3-heading  second-para">
               “ Before joining the bootcamp, I’ve never written a line of code.
               I needed some structure from professionals who can help me learn
               programming step by step. I was encouraged to enroll by a former
@@ -133,62 +90,26 @@ class Template extends React.Component {
               100% recommend! ”
             </div>
           </div>
-          <div
-            style={{
-              backgroundColor: "hsl(0, 0%, 100%)",
-              textAlign: "left",
-              display: "flex",
-              flexWrap: "wrap",
-            }}
-            class="grid-item item4"
-          >
+          <div class="third-testimonial grid-item item4">
             <div>
-              <img
-                src={Jeanette}
-                style={{
-                  border: "1.5px solid hsl(0, 0%, 100%)",
-                }}
-              ></img>
+              <img src={Jeanette}></img>
             </div>
             <div>
-              <div className="name" style={{ color: "black" }}>
-                Jeanette Harmon
-              </div>
-              <div
-                className="designation"
-                style={{ color: "hsl(219, 29%, 14%)" }}
-              >
-                Verified Graduate
-              </div>
+              <div className="item3-heading name">Jeanette Harmon</div>
+              <div className="item3-heading designation">Verified Graduate</div>
             </div>
-            <div style={{ color: "hsl(219, 29%, 14%)" }} className="first-para">
+            <div className="item3-heading first-para">
               An overall wonderful and rewarding experience
             </div>
-            <div
-              style={{ color: "hsl(219, 29%, 14%)" }}
-              className="second-para"
-            >
+            <div className="item3-heading second-para">
               “ Thank you for the wonderful experience! I now have a job I
               really enjoy, and make a good living while doing something I love.
               ”
             </div>
           </div>
-          <div
-            style={{
-              backgroundColor: "hsl(219, 29%, 14%)",
-              textAlign: "left",
-              display: "flex",
-              flexWrap: "wrap",
-            }}
-            class="grid-item item5"
-          >
+          <div class="fifth-testimonial grid-item item5">
             <div>
-              <img
-                src={Patrick}
-                style={{
-                  border: "1.5px solid black",
-                }}
-              ></img>
+              <img src={Patrick} className="patrik-profile-picture"></img>
             </div>
             <div>
               <div className="name">Patrick Abrams</div>
@@ -199,7 +120,7 @@ class Template extends React.Component {
               Getting guidance from them and learning from their experiences was
               easy.
             </div>
-            <div style={{}} className="second-para">
+            <div className="second-para">
               “ The staff seem genuinely concerned about my progress which I
               find really refreshing. The program gave me the confidence
               necessary to be able to go out in the world and present myself as
