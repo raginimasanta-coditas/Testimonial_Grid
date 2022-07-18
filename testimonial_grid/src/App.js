@@ -4,7 +4,7 @@ import Template from "./component/template";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Template />
     </div>
   );

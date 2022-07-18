@@ -28,12 +28,12 @@ class Template extends React.Component {
               <div className="name">Daniel Clifford </div>
               <div className="designation"> Verified Graduate</div>
             </div>
-            <div style={{}} className="first-para">
+            <div className="first-para">
               I received a job offer mid-course, and the subjects I learned were
               current, if not more so, in the company I joined. I honestly feel
               I got every penny’s worth.
             </div>
-            <div style={{}} className="second-para">
+            <div className="second-para">
               “ I was an EMT for many years before I joined the bootcamp. I’ve
               been looking to make a transition and have heard some people who
               had an amazing experience here. I signed up for the free intro
@@ -65,12 +65,8 @@ class Template extends React.Component {
               <img src={Kira} className="daniel-profile-picture"></img>
             </div>
             <div>
-              <div className="name" style={{ color: "black" }}>
-                Kira Whittle
-              </div>
-              <div className="designation" style={{ color: "black" }}>
-                Verified Graduate
-              </div>
+              <div className="item3-heading name">Kira Whittle</div>
+              <div className="item3-heading designation">Verified Graduate</div>
             </div>
             <div className="item3-heading first-para">
               Such a life-changing experience. Highly recommended!
