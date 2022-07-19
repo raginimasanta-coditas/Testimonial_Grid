@@ -60,7 +60,7 @@ img {
   grid-row: 2;
 }
 .name {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   vertical-align: top;
   color: hsl(0, 0%, 100%);
@@ -76,7 +76,7 @@ img {
   vertical-align: top;
 }
 .first-para {
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   color: hsl(0, 0%, 100%, 70%);
   padding: 8px;
@@ -84,7 +84,7 @@ img {
 }
 
 .second-para {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 500;
   color: hsl(0, 0%, 100%, 70%);
   padding: 8px;
@@ -99,7 +99,14 @@ img {
 .item3-heading {
   color: hsl(219, 29%, 14%);
 }
-@media only screen and (max-width: 375px) {
+
+.quotes {
+  position: absolute;
+  top: 16px;
+  right: 40px;
+  border-radius: 0;
+}
+@media only screen and (max-width: 684px) {
   .name {
     font-size: 28px;
   }
@@ -139,12 +146,4 @@ img {
     grid-column: 1;
     grid-row: 5;
   }
-}
-
-.quotes {
-  position: absolute;
-  top: 16px;
-  right: 40px;
-  border-radius: 0;
-  width: 60px;
 }
